@@ -22,19 +22,21 @@
     </header>
 
     <div class="container">
-       
-            <h2>About Me</h2>
+            <h2>Contact</h2>
             <br>
-          
-            <img id="Daniel" src="assets/images/Myphotoresized.JPG" alt="Daniel Groveman">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non elementum quam. Donec massa erat, mattis sit amet semper non, finibus sed ipsum. Donec facilisis sapien dui, id dapibus nibh eleifend ut. Nam condimentum pretium ligula vel porttitor. Ut tortor ante, blandit vel consectetur vitae, facilisis vel arcu. Nullam augue lectus, lobortis id fringilla id, consectetur nec erat. Praesent cursus tortor vel bibendum aliquet. Cras non vehicula lectus. Nulla aliquet quam vitae gravida congue. Mauris mattis eget orci nec viverra. Proin at eleifend velit.
-            </p>
-            <br>
-            <p>
-                In efficitur ipsum eget felis pharetra, vitae accumsan dui varius. Nulla viverra fermentum magna sed accumsan. Suspendisse potenti. In malesuada leo ipsum, ut vestibulum sapien commodo ut. Phasellus at ornare elit. Nam eu velit eu arcu placerat faucibus. Duis cursus aliquet diam, eget hendrerit nulla ultrices eu. Mauris nec lobortis odio, a ullamcorper purus. Nam placerat nulla diam, ac luctus lacus facilisis id. Ut egestas leo vel lorem bibendum, in condimentum erat porta. Aenean quis pharetra sapien. Nulla viverra nisi non dictum consequat.
-            </p>
-    
+       <form action="contact.php">
+           <label for="name">Name</label><br>
+           <input type="text" id="name" name="name" placeholder="John Smith">
+           <br>
+           <label for="email">Email</label><br>
+           <input type="text" id="email" name="email" placeholder="example@gmail.com">
+           <br>
+           <label for="message">Message</label><br>
+           <textarea id="Message" name="message" style="height:200px"></textarea>
+           <br>
+           <input type="submit" value="Submit">
+        </form>
+           
     </div>
    
     <div class="footer-container">
