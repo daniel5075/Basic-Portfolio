@@ -75,7 +75,7 @@ body {
    right: 120px;
 
 }
-.button {
+.button, .button2 {
     background-color: white;
         border: none;
 		padding: 25px 15px;
@@ -84,6 +84,12 @@ body {
 		font-size: 14px;
 		cursor: pointer;
         color: #777777;
+}
+.button2{
+    border-left: solid;
+    border-right:solid;
+    border-left-width: thin;
+    border-right-width: thin;
 }
 
 .footer-container {
